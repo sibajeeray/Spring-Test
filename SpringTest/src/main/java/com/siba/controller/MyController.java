@@ -27,5 +27,6 @@ public class MyController {
 			request.setAttribute("username", name);
 			request.getRequestDispatcher("/view.jsp").forward(request, response);
 		}
+		System.out.println("THis is added in idsplay branch");
 	}
 }
